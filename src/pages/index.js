@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import Bio from '../components/Bio';
 import Post from '../components/Post';
+import PostForm from '../components/PostForm'
 
 import styles from '../styles/Home.module.scss';
 
@@ -30,29 +31,24 @@ export default function Home() {
           </li>
           <li>
             <Post
-              content="Este é um novo post de teste no meu projeto de posts de mensagens."            
+              content="This is a new test post in my post project."            
               date="04/05/2021"
             />
           </li>
           <li>
             <Post
-              content="Este é um novo post de teste no meu projeto de posts de mensagens."            
+              content="This is a new test post in my post project."            
               date="04/05/2021"
             />
           </li>
           <li>
             <Post
-              content="Este é um novo post de teste no meu projeto de posts de mensagens."            
+              content="This is a new test post in my post project."            
               date="04/05/2021"
             />
           </li>
         </ul>
-
-        <form>
-          <textarea className={styles.postsTextArea}></textarea>
-          <button className={styles.postsButton}>Add New Post</button>
-        </form>
-
+        <PostForm />
       </main>        
     </div>
   )
