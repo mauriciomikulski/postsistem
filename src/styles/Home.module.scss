@@ -7,7 +7,6 @@ $primary-color: #0070f3;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .main {
@@ -27,7 +26,7 @@ $primary-color: #0070f3;
   padding: 0;
   margin: 5em 0;
 
-  li {
+  & > li {
     margin-bottom: 3em;
 
     &:last-child {
@@ -49,38 +48,3 @@ $primary-color: #0070f3;
   }
 
 }
-
-.postsContent {
-  font-size: 36px;
-  line-height: 45px;
-  margin-bottom: .5em;
-}
-
-.postsDate {
-  font-weight: 600;
-  font-size: 1.2em;
-  line-height: 30px;
-  color: #7A7777;
-}
-
-.postsTextArea {
-  width: 100%;
-  font-size: 1.4em;
-  padding: .8em;
-  border: 2px solid #939191;
-  border-radius: 5px;
-  font-family: 'Source Sans Pro', sans-serif;
-  min-height: 6em;
-  margin-bottom: 1em;
-}
-
-.postsButton {
-  background: #4948a7;
-  border-radius: 5px;
-  color: white;
-  border: 0;
-  padding: .6em 1em;
-  font-size: 1.1em;
-}
-
-
