@@ -7,6 +7,10 @@
   font-family: 'Source Sans Pro', sans-serif;
   min-height: 6em;
   margin-bottom: 1em;
+
+  &::placeholder{
+    color: #c5c5c5;
+  }
 }
 
 .formButton {
